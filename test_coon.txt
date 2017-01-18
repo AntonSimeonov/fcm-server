@@ -1,0 +1,5 @@
+curl --header "Authorization: key=$api_key" \
+       --header Content-Type:"application/json" \
+       https://fcm.googleapis.com/fcm/send \
+       -d "{\"registration_ids\":[\"fJ9EEnA17pM:APA91bFeYA2okUh5zIgsGJYeFNlaC6huh2ds8HP84Yi424bGnEWNRiQLc4B16Udblpo7duXD-8kilBgzlP96huJ_OdmscSWGj3ucSPBvpWKUuwX5OLiiBEbs-_M2MfSgmpfA-dzQSkKh
+\"]}"
